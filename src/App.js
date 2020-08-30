@@ -4,6 +4,7 @@ import { Container } from 'semantic-ui-react';
 import Navigation from './components/Navigation';
 import { Router } from '@reach/router';
 import ProfileComponent from './components/ProfileComponent';
+import AccountPage from './components/AccountPage';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
         <Router>
           <Home path="/home" />
           <ProfileComponent path="/profile" />
-          <Accounts path="/accounts" />
+          <AccountPage path="/accounts" />
         </Router>
       </Container>
     </>

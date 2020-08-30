@@ -1,9 +1,11 @@
 import React from 'react';
-import { Card, Image, Divider, Button } from 'semantic-ui-react';
+import { Card, Image, Divider, Button, Header } from 'semantic-ui-react';
 import avatar from '../bigcat.jpg'
 
 const ProfileComponent = () => {
     return (
+      <>
+      <Header style={{margin: 50}}>My Profile</Header>
         <Card.Group style={{ margin: 20 }} centered>
           <Card>
             <Card.Content>
@@ -41,6 +43,7 @@ const ProfileComponent = () => {
             </Card.Content>
           </Card>
         </Card.Group>
+        </>
     )
 }
 
