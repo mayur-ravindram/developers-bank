@@ -15,7 +15,7 @@ const Navigation = () => {
                     active={state.activeItem === 'home'}
                     onClick={handleItemClick}
                     as={Link}
-                    to="/home"
+                    to="/"
                 />
                 <Menu.Item
                     name='accounts'
